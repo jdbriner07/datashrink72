@@ -113,7 +113,7 @@ app.get('/logout', function(req, res) {
   dbHelpers.logoutUser(req, res);  
 });
 
-app.get('/analyses/*', function(req, res) {
+app.get('/analyze/*', function(req, res) {
   dbHelpers.findAllDataFromAnAnalysis(req, res); 
 });
 
